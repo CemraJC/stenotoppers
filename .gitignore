@@ -1,0 +1,6 @@
+# A developer's workspace
+__dev/
+
+# FileSync service used by the project maintainer
+*.ffs_*
+

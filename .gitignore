@@ -7,3 +7,6 @@ __dev/
 # AutoDesk Garbage Files
 *.lck
 OldVersions/
+
+# Excel Garbage Files
+~$*

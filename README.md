@@ -37,11 +37,10 @@ keyboard into a stenotype look-alike. They are designed to be customized to fit
 any keyboard with Cherry MX keyswitches or any "identical" Cherry MX variant.
 <!-- TODO: Make and mention the ALPS affixing system -->
 
-The whole point of these keycaps is to slightly raise, compact and align the top
-two rows of keys (making it easier to chord them) and move the thumb-keys
-comfortably away from the space-bar and into a more ergonomic position. Without
+The whole point of these keycaps is to slightly raise, compact and align the top two rows of keys (making it easier to chord them) and move the thumb-keys
+comfortably above the space-bar and into a more ergonomic position. Without
 StenoToppers, it is harder to press two keys with one finger and thumbs can
-become *very* sore trying to avoid mashing other keys all the time.
+become *very* sore - not helped when trying to avoid the spacebar all the time.
 
 ![demo-stenotopper-image](link)
 
@@ -51,7 +50,7 @@ Notice how StenoToppers make the keys look a fair bit wider than normal keycaps.
 StenoToppers utilize almost the entire keycap base to allow multiple keys to be
 pressed at once. On a QWERTY keyboard, this function is often undesirable, so
 keycaps heavily taper off to provide space around them - too much space for
-accurate stenography. This is why the StenoToppers look slightly larger than
+speedy stenography. This is why the StenoToppers look slightly larger than
 normal keycaps, while still retaining the same spacing *around* them.
 
 ![demo-stenotopper-closeup-image](link)
@@ -83,6 +82,7 @@ little cost. For the rest of us normal people, services like
 For a bit of extra money, you could even get them done in
 [nylon][shapeways-nylon] or [steel][shapeways-steel]!
 
+See the "printing" section below for more details.
 
 Note that, although potentially viable, we do not currently provide direct
 avenue for sale because we would like to keep the price as low as possible. As
@@ -91,7 +91,6 @@ and shipping. However, as this is an open source project, you are very welcome
 to make and sell StenoToppers by your own means, under the terms of the license.
 In short, just make sure clients are aware that the project is open source and
 that they retain the same freedom to use this project as you do.
-
 
 ## Model Customization
 
@@ -133,9 +132,13 @@ accept Inventor files for printing.
 
 Need a printing guide and checklist here. Also, a section on various services.
 
+When you print them, make sure you're printing the "flat" or "curved" models. The standard model is the common base that defines key dimensions - it does not have any aesthetic embellishments *or* (most importantly) and 3D printing optimizations. The Standard keycap would nominally take 80% longer to print than, say, the flat design.
+
 ### Minimum 3D Printer Specs
 
-Not Currently Known
+Not All Currently Known
+
+* Print bed size: 20x20 (mm)
 
 
 

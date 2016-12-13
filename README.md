@@ -37,8 +37,7 @@ Anyway, on with the show.
 
 StenoToppers are a set of custom 3D printed keycaps which convert a mechanical
 keyboard into a stenotype look-alike. They are designed to be customized to fit
-any keyboard with Cherry MX keyswitches or any "identical" Cherry MX variant.
-<!-- TODO: Make and mention the ALPS affixing system -->
+any keyboard with Cherry MX keyswitches or any "identical" Cherry MX clone.
 
 The whole point of these keycaps is to slightly raise, compact and align the top
 two rows of keys (making it easier to chord them) and move the thumb-keys

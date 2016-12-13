@@ -73,7 +73,7 @@ For example:
 | **Keyswitch** | **Description** |
 | :-----------: | :-------------: |
 | `cherrymx`  or `cmx`  | The relatively standard cross-shaped pole keyswitch that comes in a variety of colors and activation types. Various other companies also produce imitations of the Cherry MX keyswitch that should function the same with StenoToppers. |
-| `alps`        | A rectangular-shaped pole keyswitch used in a smaller set of mechanical keyboards compared to the Cherry MX switch. |
+| `alps`        | A rectangular-shaped pole keyswitch used in a smaller set of mechanical keyboards compared to the Cherry MX switch. (No models available yet) |
 
 
 # Category names

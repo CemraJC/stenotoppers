@@ -1,1 +1,9 @@
-This folder contains models adapted for the ALPS keyswitch design.
+This folder would contains models adapted for the ALPS keyswitch design.
+
+Note that these models, although potentially useful, do not yet exist because
+it was decided that Cherry MX switches are more common. Regardless, if a serious
+need for ALPS switch variants of the StenoToppers arises, then the models will
+go here.
+
+This project is structured to allow for addition of alternative
+keyswitch affixing systems.

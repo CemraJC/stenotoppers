@@ -26,7 +26,9 @@ standard names that are to be used for consistencies sake.
 
 ## Model Names
 
-This project is based around Inventor iParts (factory parts) in order to reduce workload in the event of modifications. As such, all four keycap variants (standard, large, small and thumb) are contained in a single file.
+This project is based around Inventor iParts (factory parts) in order to reduce
+workload in the event of modifications. As such, all four keycap variants
+(standard, large, small and thumb) are contained in a single file.
 
 These files should be named:
 

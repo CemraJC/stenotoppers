@@ -1,8 +1,8 @@
 # Project Conventions and Structure
 
 It is important that a project of any medium scale have a well defined set of
-conventions when necessary. This document contains a list of conventions that
-must be followed for consistencies sake.
+conventions when necessary. This document contains a list of conventions and 
+standard names that are to be used for consistencies sake.
 
 
 
@@ -26,24 +26,18 @@ must be followed for consistencies sake.
 
 ## Model Names
 
-Because models are the fundamental media of this project, each file is named so
-that it can be quickly understood without need for context. Long file names are
-ok - just not too long. There will be no part numbers, because this often causes
-confusion with small numbers of models such as in this project.
+This project is based around Inventor iParts (factory parts) in order to reduce workload in the event of modifications. As such, all four keycap variants (standard, large, small and thumb) are contained in a single file.
 
-General Part-file format:
+These files should be named:
 
-`part-name_position-on-keyboard_style_keyswitch.ipt`
+[flavor name]-keycap.ipt
 
-All name parts (such as 'style') follow the "Directory names" conventions.
+For example:
 
-For Example:
-
-> `larger-keycap_top-rows_flat_cherrymx.ipt`
+`base-keycap.ipt`
 
 
-
-#### Table of Accepted Model Name Parts
+#### Table of Standard Names
 
 | **Part Name**     | **Description** |
 | :-----------:     | :-------------: |
@@ -64,7 +58,7 @@ For Example:
 
 
 
-| **Style**     | **Description** |
+| **Flavor**     | **Description** |
 | :-------:     | :-------------: |
 | `base`        | No aesthetic modifications. Not recommended to print. |
 | `flat`        | A professional-looking flat top with chamfered edges. |
@@ -76,6 +70,13 @@ For Example:
 
 | **Keyswitch** | **Description** |
 | :-----------: | :-------------: |
-| `cherrymx`    | The relatively standard cross-shaped pole keyswitch that comes in a variety of colors and activation types. Various other companies also produce imitations of the Cherry MX keyswitch that should function the same with StenoToppers. |
+| `cherrymx`  or `cmx`  | The relatively standard cross-shaped pole keyswitch that comes in a variety of colors and activation types. Various other companies also produce imitations of the Cherry MX keyswitch that should function the same with StenoToppers. |
 | `alps`        | A rectangular-shaped pole keyswitch used in a smaller set of mechanical keyboards compared to the Cherry MX switch. |
 
+
+# Category names
+
+* `base`, `flat` and `curved` types are called "Flavors".
+* `standard`, `small`, `large` and `thumb` are called "Variants".
+* `solid` and `backlit` are called "Base types".
+* Given the correct context, the word "Type" may be used for any of the above.

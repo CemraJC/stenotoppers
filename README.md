@@ -7,6 +7,7 @@
 > *Version 0.1.0*
 <!-- TODO: Update this version number consistently -->
 
+
 ### Preface
 
 This repository contains the 3D models for the "StenoToppers" keycaps.  The
@@ -16,19 +17,21 @@ or [Blender][blender]). This branch (master) contains the design files for
 [AutoDesk Inventor 2016][inventor], from which the STL files are derived.
 
 Note that StenoToppers are designed for use with a mechanical keyboard that
-supports [N-key rollover][nkey], alongside the fantastic open source
-[Plover][plover] software. If your interested in learning more about *typing at
-the speed of thought*, see the [Plover Blog][plover-blog].
+supports [N-key rollover (NKRO)][nkey], alongside the fantastic open source
+[Plover][plover] software. If you're interested in learning more about *typing 
+at the speed of thought*, see the [Plover Blog][plover-blog].
 
-**If it all seems too hard:**<br> 3D work with printers is currently fiddly and
-time consuming. If you want a quicker solution that is guaranteed to work on any
-steno-ready keyboard, then we heartily recommend the [Laser-Cut
+**If it all seems too hard:**<br> 3D model and printing work is currently 
+fiddly and time consuming. If you want a quicker solution that is guaranteed 
+to work on any steno-ready keyboard, then we heartily recommend the [Laser-Cut
 Keytoppers][keytoppers] ($20 USD + $Shipping) from the [Plover
 Store][plover-store]<sup>[1](#not-a-sponsor)</sup>. These are secured to
-existing keycaps with some sturdy "adhesive foam" and are reportedly easy to set
-up.
+existing keycaps with some sturdy "adhesive foam" and are reportedly easy to 
+set up.
 
 Anyway, on with the show.
+
+
 
 ## What the Heck are StenoToppers?!
 
@@ -44,18 +47,16 @@ become *very* sore - not helped when trying to avoid the spacebar all the time.
 
 ![demo-stenotopper-image](link)
 
-### Key Spacing
 
-Notice how StenoToppers make the keys look a fair bit wider than normal keycaps. This is because
-StenoToppers utilize almost the entire keycap base to allow multiple keys to be
-pressed at once. On a QWERTY keyboard, this function is often undesirable, so
-keycaps heavily taper off to provide space around them - too much space for
-speedy stenography. This is why the StenoToppers look slightly larger than
-normal keycaps, while still retaining the same spacing *around* them.
+### A Note on Key Spacing
+
+Notice how StenoToppers make the keys look a fair bit wider than normal keycaps. This is because StenoToppers utilize almost the entire keycap base to allow multiple keys to be pressed at once. On a QWERTY keyboard, this function is often undesirable, so keycaps heavily taper off to provide space around them - too much space for speedy stenography. This is why the StenoToppers look slightly larger than normal keycaps, while still retaining the same spacing *around* them.
 
 ![demo-stenotopper-closeup-image](link)
 
 ### Types of StenoToppers
+
+Note that there are *four* variants of the keycap: standard, large, small and thumb. The standard keycaps are in majority, and line up most of the top row's keys. The small and large variants are meant to go on the end of each row (in the right spot) so the rows match up with existing keys (like enter and tab). These are required so the end of each row fits, but if the keyboard is empty anyway, they are optional.
 
 The StenoToppers come in two flavors - flat or curved:
 

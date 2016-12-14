@@ -80,5 +80,4 @@ For example:
 
 * `base`, `flat` and `curved` types are called "Flavors".
 * `standard`, `small`, `large` and `thumb` are called "Variants".
-* `solid` and `backlit` are called "Base types".
 * Given the correct context, the word "Type" may be used for any of the above.

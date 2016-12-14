@@ -73,17 +73,7 @@ The StenoToppers come in two flavors - flat or curved:
 
 ![demo-image-of-different-flavors](link)
 
-There are two base types for each flavor - plain or backlit:
-
-![demo-image-of-backlight-vs-plain](link)
-
-<!-- TODO: Again, design and mention the other keyswitch type -->
-
-Note that those with access to a personal printer will likely rule out the
-backlit type, because it requires printing with two filaments (one of which must
-be transparent). Work is underway on a two-piece design that is more accessible.
-
-<!-- TODO: Make a design that can be printed in two pieces - one clear, one solid -->
+![demo-image-of-different-flavors2](link)
 
 # How to get StenoToppers
 

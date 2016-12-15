@@ -84,8 +84,9 @@ To offset the shrinkage, the post hole is widened by 0.25mm on all sides in the 
 ### Printing pre-flight checklist
 
 <input type="checkbox"> Check the clearance for your printer (default is 0.25mm)
+<input type="checkbox"> Check that the extrusion width is at most 0.3mm
 <input type="checkbox"> Print with the top of the keycap facing the print bed
-<input type="checkbox"> If using FDM printing, print at a 20 degree angle (for strength reasons)
+<input type="checkbox"> **If using FDM printing,** print at a 15 degree angle (for strength reasons)
 <input type="checkbox"> Use a raft on the top of the keycap (facing print bed)
 <input type="checkbox"> Make sure support material only shows up on the top of the keycap (facing print bed)
 
@@ -93,7 +94,8 @@ To offset the shrinkage, the post hole is widened by 0.25mm on all sides in the 
 ### Minimum 3D Printer Specs
 
 * Print bed size: 20x20 (mm)
-* Extrusion resolution: 100 microns (0.1mm)
+* Max Layer resolution (thickness): 200 microns (0.2mm)
+* Max Extrusion width: 300 microns (0.3mm)
 
 
 

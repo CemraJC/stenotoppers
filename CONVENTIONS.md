@@ -11,9 +11,9 @@ standard names that are to be used for consistencies sake.
 + (root)
     - General Administrative Files (Project documents - no models)
     + <keyswitch type> (such as, cherrymx)
-        + base_model (an unembellished model of the keycap)
-        + curved (stylized to be curved on the top)
-        + flat (stylized, but flat and chamfered)
+        - stenotoppers.ipt (the inventor model of the keycap)
+        + stenotoppers (A directory containing the auto-generated variant files)
+        + mockup-parts (A directory that contains the parts for test-fitting the keycaps digitally)
 
 
 
@@ -60,24 +60,7 @@ For example:
 
 
 
-| **Flavor**     | **Description** |
-| :-------:     | :-------------: |
-| `base`        | No aesthetic modifications. Not recommended to print. |
-| `flat`        | A professional-looking flat top with chamfered edges. |
-| `curved`      | A classic stylized keycap with a slightly curved top. |
-
-<!-- I just noticed that all the descriptions line up perfectly. Bravo. -->
-
-
-
 | **Keyswitch** | **Description** |
 | :-----------: | :-------------: |
 | `cherrymx`  or `cmx`  | The relatively standard cross-shaped pole keyswitch that comes in a variety of colors and activation types. Various other companies also produce imitations of the Cherry MX keyswitch that should function the same with StenoToppers. |
 | `alps`        | A rectangular-shaped pole keyswitch used in a smaller set of mechanical keyboards compared to the Cherry MX switch. (No models available yet) |
-
-
-# Category names
-
-* `base`, `flat` and `curved` types are called "Flavors".
-* `standard`, `small`, `large` and `thumb` are called "Variants".
-* Given the correct context, the word "Type" may be used for any of the above.

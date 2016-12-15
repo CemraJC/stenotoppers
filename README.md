@@ -38,11 +38,9 @@ Notice how StenoToppers make the keys look a fair bit wider than normal keycaps.
 
 Note that there are *four* variants of the keycap: standard, large, small and thumb. The standard keycaps are in majority, and line up most of the top row's keys. The small and large variants are meant to go on the end of each row (in the right spot) so the rows match up with existing keys (like enter and tab). These are required so the end of each row fits, but if the keyboard is empty anyway, they are optional.
 
-The StenoToppers come in two flavors - flat or curved:
+![demo-image-of-stenotoppers-render](link)
 
-![demo-image-of-different-flavors](link)
-
-![demo-image-of-different-flavors2](link)
+![demo-image-of-stenotoppers-real](link)
 
 # How to get StenoToppers
 
@@ -69,7 +67,7 @@ AutoDesk Inventor, there are '.stl' models available for use in programs such as
 
 # Printing
 
-When you print StenoToppers, make sure you're printing the "flat" or "curved" models. The standard model is the common base that defines key dimensions - it does not have any aesthetic embellishments.
+Printable models are available from the [generic-models][generic-models] branch. They can also be downloaded directly from the [project website][project-website]
 
 **Print Stats:** <br>
 | Volume       | <Bounding box> <Material volume> |
@@ -118,6 +116,7 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [123d-editor]: http://www.123dapp.com/design
 
 [generic-branch]: https://github.com/CemraJC/stenotoppers/tree/generic-models
+[project-website]: https://cemrajc.github.io/stenotoppers/
 
 [plover]: http://stenoknight.com/wiki/Getting_Started#Installing_Plover
 [plover-blog]: http://plover.stenoknight.com/

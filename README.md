@@ -26,14 +26,14 @@ StenoToppers are a set of custom 3D printed keycaps which convert a mechanical k
 
 The whole point of these keycaps is to slightly raise, compact and align the top two rows of keys (making it easier to chord them) and move the thumb-keys comfortably above the space-bar and into a more ergonomic position. Without StenoToppers, it is harder to press two keys with one finger and thumbs can become *very* sore - not helped when trying to avoid the spacebar all the time.
 
-![Demonstration of StenoToppers](imgur)
+![Demonstration of StenoToppers](https://i.imgur.com/5nuGgAY.jpg)
 
 
 ### A Note on Key Spacing
 
 Notice how StenoToppers make the keys look a fair bit wider than normal keycaps. This is because StenoToppers utilize almost the entire keycap base to allow multiple keys to be pressed at once. On a QWERTY keyboard, this function is often undesirable, so keycaps heavily taper off to provide space around them - too much space for speedy stenography. This is why the StenoToppers look slightly larger than normal keycaps, while still retaining the same spacing *around* them.
 
-![Closeup of a (rendered) StenoTopper](imgur)
+![Closeup of a (rendered) StenoTopper](https://i.imgur.com/3vd6CHQ.jpg)
 
 For more detailed dimensions and specifications, check out the [drawing PDF][cad-pdf].
 
@@ -41,7 +41,7 @@ For more detailed dimensions and specifications, check out the [drawing PDF][cad
 
 Note that there are *four* variants of the keycap: standard, large, small and thumb. The standard keycaps are in majority, and line up most of the top row's keys. The small and large variants are meant to go on the end of each row (in the right spot) so the rows match up with existing keys (like enter and tab). These are required so the end of each row fits, but if the keyboard is empty anyway, they are optional.
 
-![Demo Render of StenoToppers](imgur)
+![Demo Render of StenoToppers](https://i.imgur.com/ZYFgn3A.jpg)
 
 ![demo-image-of-stenotoppers-real-deal](link)
 
@@ -59,12 +59,12 @@ The models are designed to be customized to fit your specific keyboard. Luckily,
 
 Because the StenoToppers were designed in AutoDesk Inventor, we recommend using Inventor to modify them for your keyboard as well. See [this document][inventor-customization] for a brief tutorial.
 
-![Demonstration image of Editing the 3D model with AutoDesk Inventor](imgur)
+![Demonstration image of Editing the 3D model with AutoDesk Inventor](https://i.imgur.com/VlwCSHp.jpg)
 
 However, for normal people who do not have access to software such as
 AutoDesk Inventor, there are '.stl' models available for use in programs such as [Blender][blender] (Free) or [AutoDesk 123D][123d-editor]. Please see the "[generic-models][generic-branch]" branch for these. On that branch is also a guide on customizing the models in various generic 3D modeling programs to make them compatible with your keyboard (However, it's much easier in Inventor).
 
-![Demonstration image of Editing the 3D model with Blender](imgur)
+![Demonstration image of Editing the 3D model with Blender](https://i.imgur.com/kooz1oo.jpg)
 
 
 
@@ -106,7 +106,7 @@ To offset the shrinkage, the post hole is widened by 0.25mm on all sides in the 
 
 The StenoToppers project does not accept voluntary financial support directly. Instead, all financial contributions towards this project should be made out to the [Plover project][plover-donate]. Note that the StenoToppers team is not in any way affiliated with Plover or the Open Steno Project - it is simply that without them, StenoToppers would have never existed.
 
-[![Click for the Plover project donation page](imgur)][plover-donate]
+[![Click for the Plover project donation page](https://i.imgur.com/uaUfrnk.jpg)][plover-donate]
 
 
 ## Footnotes
@@ -116,13 +116,13 @@ The StenoToppers project does not accept voluntary financial support directly. I
 <!-- Link table, sorted by category -->
 
 [inventor]:http://www.autodesk.com.au/products/inventor/overview
-[inventor-customization]:need_a_guide!
+[inventor-customization]:https://github.com/CemraJC/stenotoppers/blob/master/docs/Customization%20with%20Inventor.md
 [blender]: https://www.blender.org/download/
 [123d-editor]: http://www.123dapp.com/design
 
 [generic-branch]: https://github.com/CemraJC/stenotoppers/tree/generic-models
 [project-website]: https://cemrajc.github.io/stenotoppers/
-[cad-pdf]:link
+[cad-pdf]:https://github.com/CemraJC/stenotoppers/blob/master/drawings/base-keycap_cherrymx.pdf
 
 [plover]: http://stenoknight.com/wiki/Getting_Started#Installing_Plover
 [plover-blog]: http://plover.stenoknight.com/

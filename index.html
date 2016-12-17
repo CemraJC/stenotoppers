@@ -25,6 +25,7 @@
                     <p class="subtle-text">To get StenoToppers, you need to 3D print them. If you don't know how, see below for more details.</p>
                     <button class="download-button">Download <!--ZIP Icon!--></button>
                     <p class="subtle-text download-size"></p>
+                    <!-- A a button to print with Shapeways! -->
                     <button class="github-button">Contribute on Github <!--GH Icon!--></button>
                     <p class="subtle-text current-version">Currently at version <b>{{ site.version }}</b></p>
                 </div>
@@ -34,15 +35,19 @@
             <section>
                 <h1>About StenoToppers</h1>
                 <p>
-                    # Hello
-                    > Beantag
+                    A <i>StenoTopper</i> is a 3D printed keycap set that aims to optimize a mechanical keyboard for stenography - when used in conjunction with the <a href={{ site.urls.plover }}>Plover</a> software. The set achieves this by raising, aligning and compacting the keys, making it easier to press multiple keys as required. It also moves the steno keys away from the surrounding keys, such as the spacebar, making stenotyping <i>much</i> more comfortable.
+                </p>
+                <p>
+                    StenoToppers and other similar solutions (like the <a href={{ site.urls.laser-keytoppers }}>Laser-cut Keytoppers</a>) were designed to counteract the problem of the QWERTY layout.
+                    As it stands, QWERTY is <i>designed</i> to make it difficult to press multiple keys at once. Stenographers using Plover on a QWERTY keyboard tend to notice that it's annoying and sometimes painful to be constantly avoiding the spacebar, slanting your fingers to line up with the keyboard's row staggering and bending thumbs and pinkie fingers to overcome the substantial gap between the keys. With StenoToppers, one can align the rows, raise them above the spacebar and move the keys closer in one fell swoop. Reclaim your <a href={{ site.urls.ergonomics }}>ergonomic advantage</a> with StenoToppers.
                 </p>
                 <h1>How to get some</h1>
-                <p>{% include sections/acquisition.md %}</p>
+                <p>Currently, StenoToppers are only available through 3D printing. This is because, although very useful, they are only useful for a relatively small number of people. Demand for units would need to be in the 10,000's to make mass production viable.</p>
+                <p>If you already have access to a 3D printer, then you should be able to download the models above and print them off for negligible cost (about $2.50 worth of filament, duration of 12 hours). If, like the rest of us, you <i>don't</i> have access to a 3D printer, you will need to utilize a 3D printing service like <a href={{ site.urls.shapeways }}>Shapeways</a> for a minor cost (about $COST_EST). When using Shapeways, you can upload and configure the models yourself or you can <a href={{ site.urls.shapeways-upload }}>use the ones already uploaded</a> for free (well, there is the print cost).</p>
             </section>
         </article>
         <footer>
-            <img src="img/" alt="Footer Image">
+            <img src="img/footer.jpg" alt="Footer Image">
             <div class="credits">
                 <span>
                     This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a> with thanks to Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>

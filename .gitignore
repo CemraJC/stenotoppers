@@ -3,3 +3,6 @@ __dev/
 
 # FileSync garbage
 *.ffs_*
+
+# Jekyll site
+_site/

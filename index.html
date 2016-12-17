@@ -26,14 +26,17 @@
                     <button class="download-button">Download <!--ZIP Icon!--></button>
                     <p class="subtle-text download-size"></p>
                     <button class="github-button">Contribute on Github <!--GH Icon!--></button>
-                    <p class="subtle-text current-version">Currently at version {{ site.version }}</p>
+                    <p class="subtle-text current-version">Currently at version <b>{{ site.version }}</b></p>
                 </div>
             </div>
         </header>
         <article>
             <section>
                 <h1>About StenoToppers</h1>
-                <p>{% include sections/about.md %}</p>
+                <p>
+                    # Hello
+                    > Beantag
+                </p>
                 <h1>How to get some</h1>
                 <p>{% include sections/acquisition.md %}</p>
             </section>
@@ -42,7 +45,7 @@
             <img src="img/" alt="Footer Image">
             <div class="credits">
                 <span>
-                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a> with thanks to Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.date }}</i>
+                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a> with thanks to Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>
                 </span>
             </div>
         </footer>

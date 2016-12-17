@@ -14,20 +14,26 @@
 <body>
     <div id="wrapper">
         <header>
-            <div class="left-column">
+            <div class="title-block">
                 <h1>StenoToppers</h1>
                 <p class="subtitle">Convert your keyboard into a stenotype.</p>
-                <img src="./img/jumbotron.jpg" alt="Large preview of StenoToppers on a Keyboard" class="animate jumbotron">
             </div>
-            <div class="right-column">
-                <div class="download-box">
-                    <h2>Get the 3D Models</h2>
-                    <p class="subtle-text">To get StenoToppers, you need to 3D print them. If you don't know how, see below for more details.</p>
-                    <button class="download-button">Download <!--ZIP Icon!--></button>
-                    <p class="subtle-text download-size"></p>
-                    <!-- A a button to print with Shapeways! -->
-                    <button class="github-button">Contribute on Github <!--GH Icon!--></button>
-                    <p class="subtle-text current-version">Currently at version <b>{{ site.version }}</b></p>
+            <div class="columns">
+                <div class="left-column">
+                    <img src="./img/jumbotron.jpg" alt="Large preview of StenoToppers on a Keyboard" class="animate jumbotron">
+                </div>
+                <div class="right-column">
+                    <div class="download-box">
+                        <h2>Get the 3D Models</h2>
+                        <p class="subtle-text">To get StenoToppers, you need to 3D print them. Download here or see below for more details.</p>
+                        <button class="download-button">Download <!--ZIP Icon!--></button>
+                        <p class="subtle-text download-size"></p>
+                        <!-- A a button to print with Shapeways! -->
+                        <button class="github-button">Contribute on Github <!--GH Icon!--></button>
+                        <p class="subtle-text current-version">
+                            Currently at version <b>{{ site.version }}</b><br>
+                            <a href="./versions.html">See other versions</a></p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -37,20 +43,33 @@
                 <p>
                     A <i>StenoTopper</i> is a 3D printed keycap set that aims to optimize a mechanical keyboard for stenography - when used in conjunction with the <a href={{ site.urls.plover }}>Plover</a> software. The set achieves this by raising, aligning and compacting the keys, making it easier to press multiple keys as required. It also moves the steno keys away from the surrounding keys, such as the spacebar, making stenotyping <i>much</i> more comfortable.
                 </p>
+            </section>
+            <!-- Add a showcase section (with 3 diagrams) that displays how stenotoppers do their job -->
+            <section>
+                <h1>Why you should care</h1>
                 <p>
-                    StenoToppers and other similar solutions (like the <a href={{ site.urls.laser-keytoppers }}>Laser-cut Keytoppers</a>) were designed to counteract the problem of the QWERTY layout.
-                    As it stands, QWERTY is <i>designed</i> to make it difficult to press multiple keys at once. Stenographers using Plover on a QWERTY keyboard tend to notice that it's annoying and sometimes painful to be constantly avoiding the spacebar, slanting your fingers to line up with the keyboard's row staggering and bending thumbs and pinkie fingers to overcome the substantial gap between the keys. With StenoToppers, one can align the rows, raise them above the spacebar and move the keys closer in one fell swoop. Reclaim your <a href={{ site.urls.ergonomics }}>ergonomic advantage</a> with StenoToppers.
+                    As it stands, QWERTY was <i>designed</i> to make it difficult to press multiple keys at once. Theoretically, this is good, but since the whole premise of the stenotype <i>is</i> to press multiple keys at once, we clearly have a problem. StenoToppers and other similar solutions (like the <a href={{ site.urls.laser-keytoppers }}>Laser-cut Keytoppers</a>) are designed to counteract the problem with QWERTY's anti-chordal design.
                 </p>
+
+                <p>
+                    Stenographers using Plover on a QWERTY keyboard tend to notice that the annoying and sometimes painful process of avoiding the spacebar, slanting your fingers (to line up with the keyboard's row staggering) and bending thumbs and pinkie fingers into unnatural shapes to overcome the substantial gap between keys. With StenoToppers, one can align the rows, raise them above the spacebar and move the keys closer in one fell swoop. StenoToppers help you reclaim your <a href={{ site.urls.ergonomics }}>ergonomic advantage</a>.
+                </p>
+            </section>
+            <section>
                 <h1>How to get some</h1>
-                <p>Currently, StenoToppers are only available through 3D printing. This is because, although very useful, they are only useful for a relatively small number of people. Demand for units would need to be in the 10,000's to make mass production viable.</p>
-                <p>If you already have access to a 3D printer, then you should be able to download the models from above and print them for negligible cost (about $2.50 worth of filament, duration of 12 hours). If, like the rest of us, you <i>don't</i> have access to a 3D printer, you will need to utilize a 3D printing service like <a href={{ site.urls.shapeways }}>Shapeways</a> (costs about $COST_EST). When using Shapeways, you can upload and configure the models yourself or you can <a href={{ site.urls.shapeways-upload }}>use the ones already uploaded</a> for free (well, there is the print cost).</p>
+                <p>
+                Currently, StenoToppers are only available through <a href={{ site.urls.fdm-printing }}>3D printing</a>. This is because, although very useful, they are only useful for a relatively small number of people. Demand for units would need to be in the 10,000's to make mass production viable.
+                </p>
+
+                <p>
+                If you already have access to a 3D printer, then you should be able to download the models from above and print them for negligible cost (about $2.50 worth of filament, duration of 12 hours). If, like the rest of us, you <i>don't</i> have access to a 3D printer, you will need to utilize a 3D printing service like <a href={{ site.urls.shapeways }}>Shapeways</a> (costs about $COST_EST). When using Shapeways, you can upload and configure the models yourself or you can <a href={{ site.urls.shapeways-upload }}>use the ones already uploaded</a> for free (well, there is the print cost).</p>
             </section>
         </article>
         <footer>
             <img src="img/footer.jpg" alt="Footer Image">
             <div class="credits">
                 <span>
-                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a> and generously hosted by Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>
+                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a>. Hosting is generously provided by Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>
                 </span>
             </div>
         </footer>

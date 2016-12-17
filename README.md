@@ -4,7 +4,7 @@
 ### WORK IN PROGRESS - RECOMMEND NOT USING YET
 
 > Convert your keyboard into a stenotype.  
-> *Version 0.3.1*
+> *Version 0.4.0*
 <!-- TODO: Update this version number consistently -->
 
 

@@ -1,0 +1,5 @@
+# Developer Workspace
+__dev/
+
+# FileSync garbage
+*.ffs_*

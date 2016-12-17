@@ -1,0 +1,51 @@
+---
+---
+<html>
+<head>
+    <title>StenoToppers</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Convert your mechanical N-key rollover (NKRO) keyboard into a stenotype look-alike with these 3D printable keycaps. Best for use with the Plover steno software.">
+    <meta name="keywords" content="steno, stenotype, keycap, plover, 3d printing, models">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="left-column">
+                <h1>StenoToppers</h1>
+                <p class="subtitle">Convert your keyboard into a stenotype.</p>
+                <img src="./img/jumbotron.jpg" alt="Large preview of StenoToppers on a Keyboard" class="animate jumbotron">
+            </div>
+            <div class="right-column">
+                <div class="download-box">
+                    <h2>Get the 3D Models</h2>
+                    <p class="subtle-text">To get StenoToppers, you need to 3D print them. If you don't know how, see below for more details.</p>
+                    <button class="download-button">Download <!--ZIP Icon!--></button>
+                    <p class="subtle-text download-size"></p>
+                    <button class="github-button">Contribute on Github <!--GH Icon!--></button>
+                    <p class="subtle-text current-version">Currently at version {{ site.version }}</p>
+                </div>
+            </div>
+        </header>
+        <article>
+            <section>
+                <h1>About StenoToppers</h1>
+                <p>{% include sections/about.md %}</p>
+                <h1>How to get some</h1>
+                <p>{% include sections/acquisition.md %}</p>
+            </section>
+        </article>
+        <footer>
+            <img src="img/" alt="Footer Image">
+            <div class="credits">
+                <span>
+                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a> with thanks to Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.date }}</i>
+                </span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

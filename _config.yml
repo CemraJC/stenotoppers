@@ -7,8 +7,8 @@ markdown: kramdown
 version: 0.4.0
 
 urls:
-    plover:
-    laser-keytoppers:
-    ergonomics:
-    shapeways:
+    plover: http://stenoknight.com/wiki/Getting_Started#Installing_Plover
+    laser-keytoppers: http://plover.deco-craft.com/shop/view_product/Laser-Cut-Steno-Keys-Kit
+    ergonomics: http://plover.stenoknight.com/2010/05/ergonomic-argument.html
+    shapeways: http://www.shapeways.com/
     shapeways-upload:

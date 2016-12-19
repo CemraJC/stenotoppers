@@ -6,14 +6,19 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1 class="center-text">Released Versions</h1>
+            <h1 class="center-text">
+                <a href="./index.html" class="ico-home suppressed-link" style="float:left;"></a>
+                Released Versions
+            </h1>
             <hr>
         </header>
         {% for post in site.posts %}
-            <div class="version-block">
+            <!-- Add a selector class if the latest release -->
+            <div class="version-block {% if post.version == site.version %}current{% endif %}">
                 <h1>
-                    <a href="https://github.com/cemrajc/stenotoppers/releases/{{ post.version}}">Version {{ post.version }}</a> <!-- Need a link icon here -->
+                    <a href="https://github.com/cemrajc/stenotoppers/releases/v{{ post.version}}.0">Version {{ post.version }} {% if post.version == site.version %}<small>(latest)</small>{% endif %} <small class="ico-link"></small></a>
                     <span style="float: right;" class="date">{{ post.date | date_to_string }}</span>
+
                 </h1>
                 <h2>Authored by {{ post.developers }} - Status: {{ post.status }}</h2>
                 <div class="version-note">{{ post.content }}</div>

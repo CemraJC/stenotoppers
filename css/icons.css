@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'stenotoppers';
+  src:  url('icons/stenotoppers.eot?l2xplr');
+  src:  url('icons/stenotoppers.eot?l2xplr#iefix') format('embedded-opentype'),
+    url('icons/stenotoppers.ttf?l2xplr') format('truetype'),
+    url('icons/stenotoppers.woff?l2xplr') format('woff'),
+    url('icons/stenotoppers.svg?l2xplr#stenotoppers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stenotoppers' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-home:before {
+  content: "\f015";
+}
+.ico-folder-round:before {
+  content: "\f07b";
+}
+.ico-github:before {
+  content: "\f09b";
+}
+.ico-chain:before {
+  content: "\f0c1";
+}
+.ico-link:before {
+  content: "\f0c1";
+}
+.ico-zip:before {
+  content: "\f1c6";
+}
+.ico-folder-sharp:before {
+  content: "\e92f";
+}
+

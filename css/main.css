@@ -22,6 +22,10 @@ a {
     color: #57ADBF;
 }
 
+code {
+    font-weight: 600;
+}
+
 /*
     HEADER BLOCK
     (The rest of the css is indented 1 level for readability's sake)
@@ -351,5 +355,5 @@ a {
 
     .suppressed-link {
         color: inherit;
-        text-decoration: none;
+        text-decoration: none !important;
     }

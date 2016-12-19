@@ -20,10 +20,21 @@
                         <p class="subtle-text">To get StenoToppers, you need to 3D print them. Download here or see below for more details.</p>
                         </div>
                         <div class="download-buttons">
-                            <button class="download-button">Download <span class="ico-zip"></button>
+                            <a href="{{ site.urls.github-page }}/releases/{{ site.version}}.0/zipball" class="suppressed-link">
+                                <button class="download-button">
+                                    Download <span class="ico-zip">
+                                </button>
+                            </a>
                             <p class="subtle-text download-size"></p>
-                            <!-- A a button to print with Shapeways! -->
-                            <button class="github-button">Contribute on Github <big class="ico-github"></big></button>
+
+                            <!-- Add a button to print with Shapeways! -->
+
+                            <a href="{{ site.urls.github-page }}" class="suppressed-link">
+                                <button class="github-button">
+                                    Contribute on Github <big class="ico-github"></big>
+                                </button>
+                            </a>
+
                             <p class="subtle-text current-version">
                                 Currently at version <b>{{ site.version }}</b><br>
                                 <a href="./versions.html">See other versions</a>
@@ -37,7 +48,7 @@
             <section>
                 <h1>About StenoToppers</h1>
                 <p>
-                    A <i>StenoTopper</i> is a 3D printed keycap set that aims to optimize a mechanical keyboard for stenography - when used in conjunction with the <a href={{ site.urls.plover }}>Plover</a> software. StenoToppers achieves this by modifying their height, offset and spacing to make stenotyping <i>much</i> more comfortable.
+                    A <i>StenoTopper</i> is a 3D printed keycap set that aims to optimize a mechanical keyboard for stenography - when used in conjunction with the <a href="{{ site.urls.plover }}">Plover</a> software. StenoToppers achieves this by modifying their height, offset and spacing to make stenotyping <i>much</i> more comfortable.
                 </p>
             </section>
 
@@ -78,28 +89,47 @@
             <section>
                 <h1>Why you need StenoToppers</h1>
                 <p>
-                    As it stands, QWERTY was <i>designed</i> to make it difficult to press multiple keys at once. Theoretically, this is good, but since the whole premise of the stenotype <i>is</i> to press multiple keys at once, we clearly have a problem. StenoToppers and other similar solutions (like the <a href={{ site.urls.laser-keytoppers }}>Laser-cut Keytoppers</a>) are designed to counteract the problem with QWERTY's anti-chordal design.
+                    As it stands, QWERTY was <i>designed</i> to make it difficult to press multiple keys at once. Theoretically, this is good, but since the whole premise of the stenotype <i>is</i> to press multiple keys at once, we clearly have a problem. StenoToppers and other similar solutions (like the <a href="{{ site.urls.laser-keytoppers }}">Laser-cut Keytoppers</a>) are designed to counteract the problem with QWERTY's anti-chordal design.
                 </p>
 
                 <p>
-                    Stenographers using Plover on a QWERTY keyboard tend to notice that the annoying and sometimes painful process of avoiding the spacebar, slanting your fingers (to line up with the keyboard's row staggering) and bending thumbs and pinkie fingers into unnatural shapes to overcome the substantial gap between keys. With StenoToppers, one can align the rows, raise them above the spacebar and move the keys closer in one fell swoop. StenoToppers help you reclaim your <a href={{ site.urls.ergonomics }}>ergonomic advantage</a>.
+                    Stenographers using Plover on a QWERTY keyboard tend to notice that the annoying and sometimes painful process of avoiding the spacebar, slanting your fingers (to line up with the keyboard's row staggering) and bending thumbs and pinkie fingers into unnatural shapes to overcome the substantial gap between keys. With StenoToppers, one can align the rows, raise them above the spacebar and move the keys closer in one fell swoop. StenoToppers help you reclaim your <a href="{{ site.urls.ergonomics }}">ergonomic advantage</a>.
                 </p>
             </section>
             <section>
-                <h1>How to get some</h1>
+                <h1>How to print some</h1>
                 <p>
-                Currently, StenoToppers are only available through <a href={{ site.urls.fdm-printing }}>3D printing</a>. This is because, although very useful, they are only useful for a relatively small number of people. Demand for units would need to be in the 10,000's to make mass production viable.
+                    Currently, StenoToppers are only available through <a href="{{ site.urls.fdm-printing }}">3D printing</a>.
+                    If you already have access to a 3D printer, then you should be able to download the models from above and print them for negligible cost (about $3 worth of filament, duration of 12 hours).
                 </p>
 
                 <p>
-                If you already have access to a 3D printer, then you should be able to download the models from above and print them for negligible cost (about $2.50 worth of filament, duration of 12 hours). If, like the rest of us, you <i>don't</i> have access to a 3D printer, you will need to utilize a 3D printing service like <a href={{ site.urls.shapeways }}>Shapeways</a> (costs about $COST_EST). When using Shapeways, you can upload and configure the models yourself or you can <a href={{ site.urls.shapeways-upload }}>use the ones already uploaded</a> for free (well, there is the print cost).</p>
+                    If, like the rest of us, you <i>don't</i> have access to a 3D printer, you will need to utilize a 3D printing service like <a href="{{ site.urls.shapeways }}">Shapeways</a> (costs about $65, then shipping). When using Shapeways, you can upload and configure the models yourself or you can <a href="{{ site.urls.shapeways-upload }}">use the ones already uploaded</a>for free (well, there is the print cost).
+                </p>
+
+                <p>
+                    Here is an overview of the steps to print some StenoToppers on your own printer:
+                </p>
+
+                <ol>
+                    <li>Download the models zip file above</li>
+                    <li>Locate the <code>standard-keycap.stl</code> file</li>
+                    <li>Load this file into your slicing software and do a draft-quality test print</li>
+                    <li>Confirm that the keycap fits properly. If not, make tweaks with a mesh editor (or calibrate your printer) and go back to step 3</li>
+                    <li>Print another draft and confirm that they align properly</li>
+                    <li>If all is well, locate the <code>final-print.stl</code> assembly and print it at your desired quality.</li>
+                </ol>
+
+                <p>
+                    For more information, have a look at the <a href="{{ site.urls.github-page }}">Github repository</a>.
+                </p>
             </section>
         </article>
         <footer>
             <img src="img/footer.jpg" alt="Footer Image">
             <div class="credits">
                 <span>
-                    This site is built and maintained by <a href={{ site.author.github }}>{{ site.author.name }}</a>. Hosting is generously provided by Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>
+                    This site is built and maintained by <a href="{{ site.author.github }}">{{ site.author.name }}</a>. Hosting is generously provided by Github Pages.<br><i class="subtle-text">Last Build Date: {{ site.time | date_to_string }}</i>
                 </span>
             </div>
         </footer>

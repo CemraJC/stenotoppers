@@ -63,8 +63,8 @@ a {
     }
 
     .right-column {
-        width: 30%;
         min-width: 10rem;
+        width: 30%;
     }
 
     .jumbotron {
@@ -235,6 +235,50 @@ a {
 /*
     END FOOTER BLOCK
 */
+
+/*
+    RESPONSIVENESS
+*/
+
+    /* SMALL */
+    @media screen and (max-width: 780px) {
+
+        header .title-block h1 {
+            font-family: Lato Thin;
+            font-size: 260%;
+        }
+        header .title-block p.subtitle {
+            margin: 0;
+        }
+
+        header .columns {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header .columns .right-column {
+            width: 90%;
+        }
+        header .columns .download-box .download-text {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        header .columns .download-box .current-version {
+            font-size: 80%;
+        }
+        header .columns .download-box .current-version br { display: none;}
+        header .columns .download-box .current-version a { margin-left: 1rem;}
+
+        article {
+            margin: 1rem auto;
+        }
+    }
+
+    /* TINY */
+    @media screen and (max-width: 450px) {
+        header .columns .download-box .current-version br { display: block;}
+    }
 /*
     UTILITY STYLES
 */

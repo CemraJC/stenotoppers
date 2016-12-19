@@ -10,3 +10,6 @@ OldVersions/
 
 # Excel Garbage Files
 ~$*
+
+# Site from the gh-pages branch
+_site/

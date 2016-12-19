@@ -1,0 +1,9 @@
+# Dev folder
+__dev/
+
+# GH Pages
+_site/
+
+# File Sync
+*.ffs_*
+

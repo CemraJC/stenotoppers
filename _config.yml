@@ -13,3 +13,12 @@ urls:
     shapeways: http://www.shapeways.com/
     fdm-printing:
     shapeways-upload:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      developers: Jason Cemra
+      status: Prerelease

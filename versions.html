@@ -1,0 +1,24 @@
+---
+---
+
+<html>
+{% include head.html title="StenoTopper Versions" %}
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 class="center-text">Released Versions</h1>
+            <hr>
+        </header>
+        {% for post in site.posts %}
+            <div class="version-block">
+                <h1>
+                    <a href="https://github.com/cemrajc/stenotoppers/releases/{{ post.version}}">Version {{ post.version }}</a> <!-- Need a link icon here -->
+                    <span style="float: right;" class="date">{{ post.date | date_to_string }}</span>
+                </h1>
+                <h2>Authored by {{ post.developers }} - Status: {{ post.status }}</h2>
+                <div class="version-note">{{ post.content }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

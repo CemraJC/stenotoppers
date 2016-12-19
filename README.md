@@ -1,1 +1,3 @@
-These models are not fit for printing. Please download a later version.
+These models should not be printed, because there are stronger ones available since version 0.5.0
+
+For this reason, no complete print assemblies are provided until version 0.5.0

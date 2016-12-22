@@ -64,7 +64,9 @@ Because the StenoToppers were designed in AutoDesk Inventor, we recommend using 
 ![Demonstration image of Editing the 3D model with AutoDesk Inventor](https://i.imgur.com/VlwCSHp.jpg)
 
 However, for normal people who do not have access to software such as
-AutoDesk Inventor, there are '.stl' models available for use in programs such as [Blender][blender] (Free) or [AutoDesk 123D][123d-editor]. Please see the "[generic-models][generic-branch]" branch for these. You will need to search for specific instructions on how to use your chosen mesh editor in order to edit the models.
+AutoDesk Inventor, there are '.stl' models available for use in free modeling programs such as [AutoDesk 123D][123d-editor], [Blender][blender], [MeshLab][meshlab] or [the online threejs editor][threejs-editor]. Please see the "[generic-models][generic-branch]" branch for these. You will need to search for specific instructions on how to use your chosen mesh editor in order to edit the models. Obviously, if you customize a keycap, you will need to make your own print assembly.
+
+Unfortunately, editing STL files can be a pain - especially when you need precision. If you have any suggestions for how to make the project more editable, be sure to open an issue.
 
 ![Demonstration image of Editing the 3D model with Blender](https://i.imgur.com/kooz1oo.jpg)
 
@@ -151,6 +153,8 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [inventor-customization]:https://github.com/CemraJC/stenotoppers/blob/master/docs/Customization%20with%20Inventor.md
 [blender]: https://www.blender.org/download/
 [123d-editor]: http://www.123dapp.com/design
+[meshlab]: https://sourceforge.net/projects/meshlab/
+[threejs-editor]: https://threejs.org/editor/
 
 [generic-branch]: https://github.com/CemraJC/stenotoppers/tree/generic-models
 [project-website]: https://cemrajc.github.io/stenotoppers/

@@ -35,7 +35,8 @@ code {
         margin-bottom: 0;
         color: #111;
 
-        font-family: Lato Light;
+        font-family: Lato;
+        font-weight: 300;
         text-shadow: 0 1px 1px #C7C7C7;
     }
 
@@ -45,7 +46,8 @@ code {
         /*text-align: center;*/
     }
     .title-block h1 {
-        font-family: Lato Hairline;
+        font-family: Lato;
+        font-weight: 100;
         font-size: 530%;
         color: #222;
     }
@@ -155,7 +157,8 @@ code {
     }
 
     article section h1{
-        font-family: Lato Light;
+        font-family: Lato;
+        font-weight: 300;
         font-size: 150%;
     }
 
@@ -182,6 +185,7 @@ code {
 
     article section.features .feature-text h3 {
         font-family: Lato;
+        font-weight: 400;
         margin: 0;
     }
 
@@ -225,7 +229,8 @@ code {
     }
 
     .version-block h1, .version-block h2 {
-        font-family: Lato Thin;
+        font-family: Lato;
+        font-weight: 400;
         font-size: 150%;
         margin: 0;
     }
@@ -287,7 +292,8 @@ code {
 
         /* Header */
         header .title-block h1 {
-            font-family: Lato Thin;
+            font-family: Lato;
+            font-weight: 400;
             font-size: 260%;
         }
         header .title-block p.subtitle {

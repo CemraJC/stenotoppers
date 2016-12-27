@@ -49,22 +49,22 @@ Note that there are *four* variants of the keycap: standard, large, small and th
 
 # How to get StenoToppers
 
-StenoToppers **are 3D printed items.** If you are lucky enough to own or have access to a 3D printer, then you can likely print these off yourself for very little cost. For the rest of us normal people, services like [Shapeways][shapeways] and [Sculpteo][sculpteo] can print the models for you. For a (large) bit of extra money, you could even get them done in [nylon][shapeways-nylon] or [steel][shapeways-steel]!
+StenoToppers **are 3D printed items.** If you are lucky enough to own or have access to a 3D printer, then you can likely print these off yourself for very little cost. For the rest of us normal people, services like [Shapeways][shapeways] and [Sculpteo][sculpteo] can print the models for you, albeit at a significant cost. For even *more* money, you could even get them done in [nylon][shapeways-nylon] or [steel][shapeways-steel]!
 
-See the "printing" section below for more details.
+See the "printing" section below for more details on doing it yourself.
 
-Note that, although potentially viable, we do not currently provide direct avenue for sale because we would like to keep the price as low as possible. As it stands, material cost from an online service is high enough without adding the extra profit margin and shipping. However, as this is an open source project, you are very welcome to make and sell StenoToppers by your own means, under the terms of the license. In short, just make sure clients are aware that the project is open source and that they retain the same freedom to use this project as you do.
+Note that, although potentially viable, we do not currently provide direct avenue for sale because we would like to keep the price as low as possible. As it stands, material cost from an online service is high enough without adding the extra profit margin and shipping. However, as this is an open source project, you are very welcome (and encouraged) to make and sell StenoToppers by your own means, under the terms of the license. In short, just make sure clients are aware that the project is open source and that they retain the same freedom to use this project as you do.
 
 ## Model Customization
 
-The models are designed to be customized to fit your specific keyboard. Luckily, the majority of keyboards are designed to have a standard layout - so that typists have consistency - which means that the default models *should* work fine, although you should definitely *do a test print* before printing all 26 keycaps.
+The models are designed to be customized to fit your specific keyboard. Luckily, the majority of keyboards are designed to have a standard layout and spacing - so typists have consistency - which means that the default models *should* work fine, although you should definitely *do a test print* before printing all 26 keycaps.
 
 Because the StenoToppers were designed in AutoDesk Inventor, we recommend using Inventor to modify them for your keyboard as well. See [this document][inventor-customization] for a very brief tutorial.
 
 ![Demonstration image of Editing the 3D model with AutoDesk Inventor](https://i.imgur.com/VlwCSHp.jpg)
 
 However, for normal people who do not have access to software such as
-AutoDesk Inventor, there are '.stl' models available for use in free modeling programs such as [AutoDesk 123D][123d-editor], [Blender][blender], [MeshLab][meshlab] or [the online threejs editor][threejs-editor]. Please see the "[generic-models][generic-branch]" branch for these. You will need to search for specific instructions on how to use your chosen mesh editor in order to edit the models. Obviously, if you customize a keycap, you will need to make your own print assembly.
+AutoDesk Inventor, there are '.stl' models available for use in free modeling programs such as [AutoDesk 123D][123d-editor], [Blender][blender] or [MeshLab][meshlab]. Please see the "[generic-models][generic-branch]" branch for these. You will need to search for specific instructions on how to use your chosen mesh editor in order to edit the models. Obviously, if you customize a keycap, you will need to make your own print assembly.
 
 Unfortunately, editing STL files can be a pain - especially when you need precision. If you have any suggestions for how to make the project more editable, be sure to open an issue.
 
@@ -154,7 +154,6 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [blender]: https://www.blender.org/download/
 [123d-editor]: http://www.123dapp.com/design
 [meshlab]: https://sourceforge.net/projects/meshlab/
-[threejs-editor]: https://threejs.org/editor/
 
 [generic-branch]: https://github.com/CemraJC/stenotoppers/tree/generic-models
 [project-website]: https://cemrajc.github.io/stenotoppers/

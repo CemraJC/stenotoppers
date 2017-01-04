@@ -112,8 +112,9 @@ Printable models are available from the [generic-models][generic-branch] branch.
 <input type="checkbox"> Line width is close to (or less than) 0.5mm
 <input type="checkbox"> Layer height is close to (or less than) 0.3mm
 <input type="checkbox"> Printing with the top of the keycap(s) facing the print bed
-<input type="checkbox"> Using a raft to avoid elephant's foot
-<input type="checkbox"> Have at least 8m of filament on the spool.
+<input type="checkbox"> Using a raft to avoid "elephant's foot"
+<input type="checkbox"> Using 60% infill or above (for final-quality print)
+<input type="checkbox"> Have at least 9m of filament on the spool.
 
 
 ### Minimum 3D Printer Specs

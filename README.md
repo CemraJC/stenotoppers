@@ -125,13 +125,13 @@ Printable models are available from the [generic-models][generic-branch] branch.
 * Max Extrusion width: 500 microns (0.5mm) - aim for lower (0.4 or 0.3)
 
 
-### A Note on Clearances
+### An Important Note on Clearances
 
-Because the Cherry MX post is a standard size, it is important that the keycaps are printed so they fit snugly. For this reason, proper printer calibration is very important. 
+Because the Cherry MX stem is a standard size, it is important that the keycaps are printed so they fit snugly. For this reason, proper printer calibration is very important. Keyboards may vary, but ideally they will have the same key spacing and stem dimensions.
 
-It's more complex than it sounds to get true-to-model dimensions, because different printers have varying tolerances (how much the print is different from the model). This is because filament layers are squashed by the print-head and also shrink as they cool. Some printers change their cooling settings or over-extrusion in an attempt to correct this. These factors mean that a feature of the model can potentially end up smaller (rarely larger) in the print than it was in the 3D model. For tight fits like the Cherry MX post, this contraction actually stops the keycap from fitting on the post. All that is to say that an improperly calibrated printer has serious consequences for this kind of model.
+It's more complex than it sounds to get true-to-model dimensions, because different printers have varying tolerances (how much the print is different from the model). This is because filament layers are squashed by the print-head and also shrink as they cool. Some printers change their cooling settings or over-extrusion in an attempt to correct this. These factors mean that a feature of the model can potentially end up smaller (rarely larger) in the print than it was in the 3D model. For tight fits like the Cherry MX stem, this contraction actually stops the keycap from fitting on the stem. 
 
-
+All that is to say that an improperly calibrated printer has serious consequences for this kind of model. Overall, you should expect to make minor adjustments to the model (or your printer) to make sure it fits.
 
 
 

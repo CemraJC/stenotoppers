@@ -4,7 +4,7 @@ author:
 
 markdown: kramdown
 
-version: 0.7
+version: 0.8
 
 urls:
     plover: "http://stenoknight.com/wiki/Getting_Started#Installing_Plover"

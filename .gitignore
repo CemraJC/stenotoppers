@@ -1,5 +1,6 @@
 # A developer's workspace
 __dev/
+.gitconfig
 
 # FileSync service used by the project maintainer
 *.ffs_*

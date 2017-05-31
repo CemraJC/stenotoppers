@@ -1,9 +1,13 @@
-These models have not had their dimensions checked by the QA team. Advise against printing.
+We recommend printing two standard keycaps (`standard-keycap.stl`) to confirm that they actually fit on your keyboard without any/much interference. If it does not, then your 3D printer likely needs calibration.
 
-Theoretically, the models are otherwise in their final form.
+The test assembly (`test-print.stl`) is an optional next stage for those who wish to make absolutely certain that all the keycap types will fit and that the standard keycaps will line up properly before printing all of them. Recommend printing at lower quality and hollow / 10% infill to save time and a bit of material.
 
-We recommend printing a single standard keycap (`standard-keycap.stl`) to confirm that it will actually fit on your keyboard. If it does not, then your 3D printer needs calibration.
+The final print assembly (`final-print.stl`) contains all the keys needed for a full set of StenoToppers.
 
-The test assembly is an optional next stage for those who wish to make absolutely certain that all the keycap types will fit and that the standard keycaps will line up properly before printing all of them. Recommend printing at lower quality and hollow / 10% infill to save time and a bit of material.
+<!-- TODO: Update this list -->
+Make sure to see the [fitting guide][fitting-guide] for properly fitting the keys to your keyboard.
 
-The final print assembly contains all the keys needed for a full set of StenoToppers.
+
+<!-- Link Table: -->
+
+[fitting-guide]: https://todo

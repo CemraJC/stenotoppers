@@ -1,5 +1,6 @@
 # Dev folder
 __dev/
+.gitconfig
 
 # GH Pages
 _site/

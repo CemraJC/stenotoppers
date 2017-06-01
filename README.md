@@ -10,4 +10,4 @@ Make sure to see the [fitting guide][fitting-guide] for properly fitting the key
 
 <!-- Link Table: -->
 
-[fitting-guide]: https://todo
+[fitting-guide]: https://github.com/CemraJC/stenotoppers/blob/master/FITTING-GUIDE.md

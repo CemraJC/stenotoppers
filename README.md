@@ -3,6 +3,8 @@
 > Convert your keyboard into a stenotype.  
 > *Version 1.0.0*
 
+![Demonstration of StenoToppers (Render)](http://i.imgur.com/VgQMU4N.jpg)
+
 ### Preface
 
 This repository contains the 3D design files for the "StenoToppers", including and [a detailed CAD drawing][cad-pdf] and 3D models. The branch "[generic-models][generic-branch]" has files (in STL format) that should work with any proper 3D modeling software (such as [AutoDesk 123D][123d-editor] or [Blender][blender]). This branch (master) contains the part files and assemblies for [AutoDesk Inventor 2016][inventor], from which the STL files are derived.
@@ -27,7 +29,7 @@ StenoToppers are a set of custom 3D printed keycaps which convert a mechanical k
 The whole point of these keycaps is to slightly raise, compact and align the top two rows of keys (making it easier to chord them) and move the thumb-keys comfortably above the space-bar and into a more ergonomic position. Without StenoToppers, it is harder to press two keys with one finger and thumbs can become *very* sore trying to avoid the spacebar all the time.
 
 <!-- TODO Update this -->
-![Demonstration of StenoToppers](https://i.imgur.com/5nuGgAY.jpg)
+![Demonstration of StenoToppers (Real)](https://i.imgur.com/5nuGgAY.jpg)
 
 
 ### A Note on Key Spacing
@@ -130,16 +132,14 @@ The models are designed to be customized easily. Luckily, the majority of keyboa
 
 Because the StenoToppers were designed in AutoDesk Inventor, we recommend using Inventor to modify them for your keyboard as well. See [this document][inventor-customization] for a very brief tutorial.
 
-<!-- TODO Update this -->
-![Demonstration image of Editing the 3D model with AutoDesk Inventor](https://i.imgur.com/VlwCSHp.jpg)
+![Demonstration image of Editing the 3D model with AutoDesk Inventor](http://i.imgur.com/wP2xfcE.jpg)
 
 However, for normal people who do not have access to software such as
 AutoDesk Inventor, there are '.stl' models available for use in free modeling programs such as [AutoDesk 123D][123d-editor], [Blender][blender] or [MeshLab][meshlab]. Please see the "[generic-models][generic-branch]" branch for these. You will need to search for specific instructions on how to use your chosen mesh editor in order to edit the models. Obviously, if you customize a keycap, you will need to make your own print assembly.
 
 Unfortunately, editing STL files can be a pain - especially when you need precision. If you have any suggestions for how to make the project more editable, be sure to open an issue on Github.
 
-<!-- TODO Update this -->
-![Demonstration image of Editing the 3D model with Blender](https://i.imgur.com/kooz1oo.jpg)
+![Demonstration image of Editing the 3D model with Blender](http://i.imgur.com/gKG5Ht2.jpg)
 
 
 ## A Word On Financial Contributions
@@ -163,9 +163,7 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [123d-editor]: http://www.123dapp.com/design
 [meshlab]: https://sourceforge.net/projects/meshlab/
 
-
-	<!-- TODO Fill in this link -->
-[fitting-guide]: https://
+[fitting-guide]: https://github.com/CemraJC/stenotoppers/blob/master/FITTING-GUIDE.md
 
 [generic-branch]: https://github.com/CemraJC/stenotoppers/tree/generic-models
 [project-website]: https://cemrajc.github.io/stenotoppers/
@@ -180,9 +178,7 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [nkey]: https://en.wikipedia.org/wiki/Rollover_(key)
 
 [sculpteo]: https://www.sculpteo.com/en/
-	<!-- TODO Make these materials available -->
-	<!-- TODO Set up the store -->
 [shapeways]: http://www.shapeways.com/
-[shapeways-store]: http://www.shapeways.com/logical-store
+[shapeways-store]: https://www.shapeways.com/shops/logical-store?section=Stenography+and+Plover&s=0
 [shapeways-steel]: http://www.shapeways.com/materials/steel
 [shapeways-nylon]: http://www.shapeways.com/materials/strong-and-flexible-plastic

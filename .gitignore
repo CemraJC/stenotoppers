@@ -1,5 +1,6 @@
 # Developer Workspace
 __dev/
+.gitconfig
 
 # FileSync garbage
 *.ffs_*

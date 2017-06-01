@@ -4,7 +4,7 @@ author:
 
 markdown: kramdown
 
-version: 0.8
+version: 1.0
 
 urls:
     plover: "http://stenoknight.com/wiki/Getting_Started#Installing_Plover"
@@ -12,8 +12,9 @@ urls:
     ergonomics: "http://plover.stenoknight.com/2010/05/ergonomic-argument.html"
     shapeways: "http://www.shapeways.com/"
     github-page: "https://github.com/cemrajc/stenotoppers"
-    fdm-printing:
-    shapeways-upload:
+    fdm-printing: "https://en.wikipedia.org/wiki/Fused_deposition_modeling"
+    shapeways-upload: "https://www.shapeways.com/shops/logical-store?section=Stenography+and+Plover&s=0"
+    fitting-guide: "https://github.com/CemraJC/stenotoppers/blob/master/FITTING-GUIDE.md"
 
 defaults:
   -

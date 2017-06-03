@@ -166,6 +166,14 @@ code {
         line-height: 1.6;
     }
 
+    article section img.demo-image {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        box-shadow: 0 0 10px black;
+    }
+
 
     /* Features Showcase */
 

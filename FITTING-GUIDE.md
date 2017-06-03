@@ -2,7 +2,7 @@
 
 **Warning:** This project is not for the impatient. If you try to rush through the fitting process, you may end up breaking somthing. Although, since you're into steno, I imagine you like doing things the right way. I can assure you, StenoToppers are the "right way" to do DIY steno :wink:.
 
-So grab a some fine wine and put on your favourite classical music. Depending on the quality of your print, the full fitting could take anywhere between 2 and 5 hours.
+So grab a some fine wine and put on your favourite classical music. Depending on the quality of your print, the full fitting could take anywhere between 2 and 5 hours. The printer I had access to was pretty rubbish, so I believe this fitting guide covers the worst-case scenario quite well. Chances are good that your print will come out nicely.
 
 When StenoToppers come out of the printer, they will likely not fit on your keyboard straight away. Straight off the printer, they look like this:
 

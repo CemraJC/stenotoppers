@@ -99,6 +99,6 @@ Sanding the back of the key is also an option, but this takes a fair bit more ti
 
 ![Top down view](http://imgur.com/FRwXu8x.jpg)
 
-Once you have repeated the process for each key, you will have a full set of StenoToppers. Set aside about 2 hours to do this - it takes a while, but it's worth it for a comfortable DIY stenotype.
+Once you have repeated the process for each key, you will have a full set of StenoToppers. Set aside about 5 hours to do this - it takes a while, but it's worth it for a comfortable DIY stenotype.
 
 You may notice that the keys feel a bit heavier than normal. This is a by-product of the thickness of 3D printed parts and is unavoidable without using different manufacturing techniques. Personally, I like the heavier feel. It makes the keys seem like they're solid, and *really* doing something. Sort of like a heavy watch. Of course, your mileage may vary with this.

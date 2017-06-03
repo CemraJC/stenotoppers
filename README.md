@@ -28,8 +28,7 @@ StenoToppers are a set of custom 3D printed keycaps which convert a mechanical k
 
 The whole point of these keycaps is to slightly raise, compact and align the top two rows of keys (making it easier to chord them) and move the thumb-keys comfortably above the space-bar and into a more ergonomic position. Without StenoToppers, it is harder to press two keys with one finger and thumbs can become *very* sore trying to avoid the spacebar all the time.
 
-<!-- TODO Update this -->
-![Demonstration of StenoToppers (Real)](https://i.imgur.com/5nuGgAY.jpg)
+![Demonstration of StenoToppers (Real)](http://imgur.com/lvds8in.jpg)
 
 
 ### A Note on Key Spacing
@@ -38,17 +37,13 @@ Notice how StenoToppers make the keys look a fair bit wider than normal keycaps.
 
 Also, note that although they line up horizontally (ortholinear), your keyboard is likely to have a non-standard slope angle to the base. This means that and keys are likely to be _vertically_ offset by two millimeters, and may collide. This shouldn't affect stenography in any noticeable way once [fitted properly][fitting-guide].
 
-<!-- TODO Update this -->
-![Top down of StenoToppers](https://i.imgur.com/3vd6CHQ.jpg)
+![Top down of StenoToppers](http://i.imgur.com/FRwXu8x.jpg)
 
 For more detailed dimensions and specifications, check out the [drawing PDF][cad-pdf].
 
 ### Types of StenoToppers
 
 Note that there are *four* variants of the keycap: standard, large, small and thumb. The standard keycaps are in majority and line up most of the top row's keys. The small and large variants are meant to go on the end of each row (in the right place, of course) so the rows match up with existing keys that are still staggered (like enter and tab). The small and large variants are required so the end of each row fits, but if the keyboard is otherwise empty of keys, they are optional. Thumb keys have no offset on the keycap stem, so they will fit in straight up-and-down.
-
-<!-- TODO Update this -->
-![Wide-shot of different types of StenoToppers](https://i.imgur.com/ZYFgn3A.jpg)
 
 # How to get StenoToppers
 

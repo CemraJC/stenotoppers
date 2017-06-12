@@ -92,6 +92,16 @@ Printable models are available from the [generic-models][generic-branch] branch.
 | Average Time                 | ~40 mins                                 | 
 | Average material cost        | 12 cents (i.e. Negligible)               |
 
+### Custom Keycap Sets
+
+Sometimes, the "final" and "test" pre-compiled packages aren't what you're looking for. If, for example, you want to print a set of 350 standard keys (not sure why) then you'll need to make a custom assembly. If you're unfamiliar with 3D printing or 3D modelling, this may seem like a difficult task, however with tools such as [AutoDesk Meshmixer][meshmixer] or [Meshlab][meshlab] this task is relatively easy. When you download the models, you will have access to the individual keycap models. For a full keyboard, you should be printing **2 large, 2 small, 4 thumb and 18 standard stenotoppers**.
+
+There are guides on how to merge STL files all over the place. Here is just a couple:
+
+* [Meshmixer: Combining Models](http://www.instructables.com/id/Meshmixer-Combining-Models/)
+* [Merging STL Files](https://edditiveblog.wordpress.com/2015/01/02/merging-stl-files/)
+* [Editing and merging STL files. How-to and an offer. Any interest?](https://groups.google.com/forum/#!topic/inmoov/k4kzPOrsuzs)
+
 ### Pre-print checklist
 
 <input type="checkbox"> Line width is close to (or less than) 0.5mm
@@ -157,6 +167,7 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [blender]: https://www.blender.org/download/
 [123d-editor]: http://www.123dapp.com/design
 [meshlab]: https://sourceforge.net/projects/meshlab/
+[meshmixer]: http://www.meshmixer.com/
 
 [fitting-guide]: https://github.com/CemraJC/stenotoppers/blob/master/FITTING-GUIDE.md
 

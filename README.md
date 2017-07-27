@@ -1,9 +1,15 @@
 # StenoToppers
 
 > Convert your keyboard into a stenotype.  
-> *Version 1.0.0*
+> *Version 1.1.0*
 
 ![Demonstration of StenoToppers (Render)](http://i.imgur.com/VgQMU4N.jpg)
+
+## *Update*
+
+The StenoToppers keycap set now includes number bar (numbar) keys (since version 1.1.0). These keys are much like normal keys, but they fit on the same level as the StenoToppers and sit nice and close together.
+
+Two additional print assemblies have been made available - one for just the numbar keys, and another for the full set *including* the numbar keys.
 
 ### Preface
 

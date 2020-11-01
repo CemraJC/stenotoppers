@@ -1,9 +1,11 @@
 # StenoToppers
 
 > Convert your keyboard into a stenotype.  
-> *Version 1.1.0*
+> *Version 1.2.0*
 
 ![Demonstration of StenoToppers (Render)](http://i.imgur.com/VgQMU4N.jpg)
+
+## [Get them from the releases page!](https://github.com/CemraJC/stenotoppers/releases)
 
 ## Hall of Fame
 

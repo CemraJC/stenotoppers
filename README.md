@@ -5,6 +5,10 @@
 
 ![Demonstration of StenoToppers (Render)](http://i.imgur.com/VgQMU4N.jpg)
 
+## Hall of Fame
+
+[Visit the hall of fame!](https://github.com/CemraJC/stenotoppers/wiki/StenoToppers-Hall-of-Fame) Submit your own prints through the Issues tab, or by editing the Wiki directly!
+
 ## *Update*
 
 The StenoToppers keycap set now includes number bar (numbar) keys (since version 1.1.0). These keys are much like normal keys, but they fit on the same level as the StenoToppers and sit nice and close together.

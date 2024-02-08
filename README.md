@@ -161,7 +161,7 @@ Unfortunately, editing STL files can be a pain - especially when you need precis
 
 ## A Word On Financial Contributions
 
-The StenoToppers project does not accept voluntary financial support directly. Instead, all financial contributions towards this project should be made out to the [Plover project][plover-donate]. Note that the StenoToppers team is not in any way affiliated with Plover or the Open Steno Project - it is simply that without them, StenoToppers would not have any reason to exist.
+The StenoToppers project does not accept voluntary financial support directly. Instead, all financial contributions towards this project should be made out to the [Open Steno Project][plover-donate]. Note that the StenoToppers team is not in any way affiliated with Plover or the Open Steno Project - it is simply that without them, StenoToppers would not have any reason to exist.
 
 [![Click for the Plover project donation page](https://i.imgur.com/uaUfrnk.jpg)][plover-donate]
 
@@ -191,7 +191,7 @@ The StenoToppers project does not accept voluntary financial support directly. I
 [plover]: http://stenoknight.com/wiki/Getting_Started#Installing_Plover
 [plover-blog]: http://plover.stenoknight.com/
 [plover-store]: http://plover.deco-craft.com/
-[plover-donate]: http://stenoknight.com/plover/donatepage.html
+[plover-donate]: https://www.openstenoproject.org/donate/
 [keytoppers]: http://plover.deco-craft.com/shop/view_product/Laser-Cut-Steno-Keys-Kit
 [nkey]: https://en.wikipedia.org/wiki/Rollover_(key)
 

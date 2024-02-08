@@ -1,6 +1,6 @@
 # StenoToppers
 
-> Convert your keyboard into a stenotype.  
+> Convert your keyboard into a stenotype!  
 > *Version 1.2.0*
 
 ![Demonstration of StenoToppers (Render)](http://i.imgur.com/VgQMU4N.jpg)
